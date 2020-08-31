@@ -2,6 +2,13 @@ let board = generateChessBoard();
 
 console.log(board);
 
+
+/**
+ * Генерирует строку заполненой из '#' символов в шахматном порядке
+ * 
+ * @param {number} size размер шахматной доски
+ * @returns {string} строку в виде шахматной доски
+ */
 function generateChessBoard(size = 8) {
     let tempBoard = '';
 
