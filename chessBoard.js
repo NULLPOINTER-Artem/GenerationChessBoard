@@ -1,4 +1,4 @@
-let board = generateChessBoard();
+let board = generateChessBoard(7);
 
 console.log(board);
 
